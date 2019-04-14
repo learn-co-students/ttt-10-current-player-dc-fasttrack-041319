@@ -20,4 +20,6 @@ def current_player(board)
     return "O"
   end
   
+#  turn = num_turns % 2 == 0 ? "X" : "O"
+  return turn
 end
